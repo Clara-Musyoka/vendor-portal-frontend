@@ -4,6 +4,7 @@ import {
   AiFillInstagram,
   AiFillYoutube,
   AiOutlineTwitter,
+  AiOutlineLinkedin,
 } from "react-icons/ai";
 import { Link } from "react-router-dom";
 import {
@@ -44,25 +45,59 @@ const Footer = () => {
           <br />
           <p>The home and elements needeed to create beatiful products.</p>
           <div className="flex items-center mt-[15px]">
-            <AiFillFacebook size={25} className="cursor-pointer" />
-            <AiOutlineTwitter
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
-            <AiFillInstagram
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
-            <AiFillYoutube
-              size={25}
-              style={{ marginLeft: "15px", cursor: "pointer" }}
-            />
+            <a
+              href="https://www.facebook.com/SafaricomPLC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillFacebook size={25} className="cursor-pointer" />
+            </a>
+            <a
+              href="https://twitter.com/i/flow/login?redirect_after_login=%2FSafaricomPLC"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineTwitter
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/safaricom"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiOutlineLinkedin
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://www.instagram.com/safaricomplc_/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillInstagram
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
+            <a
+              href="https://www.youtube.com/user/safaricomofficial"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <AiFillYoutube
+                size={25}
+                style={{ marginLeft: "15px", cursor: "pointer" }}
+              />
+            </a>
           </div>
         </ul>
 
         <ul className="text-center sm:text-start">
           <h1 className="mb-1 font-semibold">Company</h1>
-          {footerProductLinks.map((link,index) => (
+          {footerProductLinks.map((link, index) => (
             <li key={index}>
               <Link
                 className="text-gray-400 hover:text-teal-400 duration-300
@@ -77,7 +112,7 @@ const Footer = () => {
 
         <ul className="text-center sm:text-start">
           <h1 className="mb-1 font-semibold">Shop</h1>
-          {footercompanyLinks.map((link,index) => (
+          {footercompanyLinks.map((link, index) => (
             <li key={index}>
               <Link
                 className="text-gray-400 hover:text-teal-400 duration-300
@@ -92,7 +127,7 @@ const Footer = () => {
 
         <ul className="text-center sm:text-start">
           <h1 className="mb-1 font-semibold">Support</h1>
-          {footerSupportLinks.map((link,index) => (
+          {footerSupportLinks.map((link, index) => (
             <li key={index}>
               <Link
                 className="text-gray-400 hover:text-teal-400 duration-300
@@ -110,7 +145,7 @@ const Footer = () => {
         className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10
          text-center pt-2 text-gray-400 text-sm pb-8"
       >
-        <span>© 2020 Becodemy. All rights reserved.</span>
+        <span>© 2023 Masoko. All rights reserved.</span>
         <span>Terms · Privacy Policy</span>
         <div className="sm:block flex items-center justify-center w-full">
           <img
