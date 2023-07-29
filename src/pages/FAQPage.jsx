@@ -73,7 +73,7 @@ const Faq = () => {
               <p className="text-base text-gray-500">
                 If you're not satisfied with your purchase, we accept returns
                 within 30 days of delivery. To initiate a return, please email
-                us at support@myecommercestore.com with your order number and a
+                us at musyokamusenya@gmail.com with your order number and a
                 brief explanation of why you're returning the item.
               </p>
             </div>
@@ -171,7 +171,7 @@ const Faq = () => {
             <div className="mt-4">
               <p className="text-base text-gray-500">
                 You can contact our customer support team by emailing us at
-                support@myecommercestore.com, or by calling us at (555) 123-4567
+                musyokamusenya@gmail.com, or by calling us at (+254) 123-4567
                 between the hours of 9am and 5pm EST, Monday through Friday.
               </p>
             </div>
@@ -316,7 +316,7 @@ const Faq = () => {
           {activeTab === 7 && (
             <div className="mt-4">
               <p className="text-base text-gray-500">
-                We accept visa,mastercard,paypal payment method also we have
+                We accept: MPESA visa,mastercard,paypal payment method also we have
                 cash on delivery system.
               </p>
             </div>
