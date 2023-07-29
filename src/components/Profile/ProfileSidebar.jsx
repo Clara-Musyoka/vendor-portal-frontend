@@ -39,7 +39,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <RxPerson size={20} color={active === 1 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 1 ? "text-[red]" : ""
+            active === 1 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Profile
@@ -52,7 +52,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <HiOutlineShoppingBag size={20} color={active === 2 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 2 ? "text-[red]" : ""
+            active === 2 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Orders
@@ -65,7 +65,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <HiOutlineReceiptRefund size={20} color={active === 3 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 3 ? "text-[red]" : ""
+            active === 3 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Refunds
@@ -79,7 +79,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <AiOutlineMessage size={20} color={active === 4 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 4 ? "text-[red]" : ""
+            active === 4 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Inbox
@@ -93,7 +93,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <MdOutlineTrackChanges size={20} color={active === 5 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 5 ? "text-[red]" : ""
+            active === 5 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Track Order
@@ -107,7 +107,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <RiLockPasswordLine size={20} color={active === 6 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 6 ? "text-[red]" : ""
+            active === 6 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Change Password
@@ -121,7 +121,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <TbAddressBook size={20} color={active === 7 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 7 ? "text-[red]" : ""
+            active === 7 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Address
@@ -140,7 +140,7 @@ const ProfileSidebar = ({ setActive, active }) => {
             />
             <span
               className={`pl-3 ${
-                active === 8 ? "text-[red]" : ""
+                active === 8 ? "text-[green]" : ""
               } 800px:block hidden`}
             >
               Admin Dashboard
@@ -155,7 +155,7 @@ const ProfileSidebar = ({ setActive, active }) => {
         <AiOutlineLogin size={20} color={active === 8 ? "red" : ""} />
         <span
           className={`pl-3 ${
-            active === 8 ? "text-[red]" : ""
+            active === 8 ? "text-[green]" : ""
           } 800px:block hidden`}
         >
           Log out
